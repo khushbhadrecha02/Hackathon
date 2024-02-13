@@ -7,13 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\ACC\Data\" />
-    <Folder Include="Areas\ACC\Models\" />
-    <Folder Include="Areas\ACC\Views\" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\ACC\Controllers\" />
+    <Folder Include="Areas\ACC\Data\" />
+    <Folder Include="Areas\ACC\Models\" />
+    <Folder Include="Areas\ACC\Views\" />
   </ItemGroup>
 
 </Project>
