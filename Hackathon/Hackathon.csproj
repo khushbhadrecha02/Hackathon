@@ -10,12 +10,4 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\" />
-    <Folder Include="Areas\ACC\Controllers\" />
-    <Folder Include="Areas\ACC\Data\" />
-    <Folder Include="Areas\ACC\Models\" />
-    <Folder Include="Areas\ACC\Views\" />
-  </ItemGroup>
-
 </Project>
